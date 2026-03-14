@@ -21,7 +21,7 @@ const ChangeUser = () => {
 
   return (
     <>
-      <section className="flex items-center justify-center h-[100vh] select-none">
+      <section className="flex items-center justify-center h-screen select-none">
         <div
           className={`w-full h-auto max-w-sm p-4 rounded-4xl ${Data.background}`}
         >
