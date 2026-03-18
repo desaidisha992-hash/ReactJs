@@ -1,6 +1,5 @@
 {
-  "homepage": "https://desaidisha992-hash.github.io/noteapp ",
-  "name": "keep-note",
+  "name": "useeffect",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,12 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
+    "axios": "^1.13.6",
+    "lucide-react": "^0.577.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.2.1"
