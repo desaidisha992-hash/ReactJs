@@ -4,8 +4,9 @@ import { Focus, Search } from "lucide-react";
 const NavBar = () => {
   return (
     <>
+    {/* Part 1 */}
       <div className="flex px-6 justify-between items-center">
-        
+        {/* navbar with Searchbar  */}
         <div className="bg-gray-200 px-3 py-1.5 flex items-center justify-between gap-x-2 rounded-full w-[75%]">
           <Search className="w-5 h-5 text-gray-600" strokeWidth={2.5} />
           <input
@@ -24,7 +25,7 @@ const NavBar = () => {
           </button>
         </div>
       </div>
-
+ {/* Part 2 */}
       <nav className="border-b border-gray-400 w-full">
         <ul className="list-none flex items-center justify-between w-[70%] my-4 px-6 text-sm text-gray-400 font-medium">
           <li className="text-black">Featured</li>
