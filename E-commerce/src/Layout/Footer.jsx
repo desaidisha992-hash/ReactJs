@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:col-span-2 pr-0 lg:pr-10">
             {/* Logo */}
             <div className="flex items-center gap-x-4 mb-4">
-              <img src="/logo.png" alt="logo" className="w-10 object-cover" />
+              <img src="/logo.png" alt="logo" className="w-20 object-cover" />
               <h1 className="font-bold text-xl">Shopping.</h1>
             </div>
 

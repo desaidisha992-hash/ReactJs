@@ -34,7 +34,7 @@ export const Navbar = () => {
         {/* logo */}
         <div className='flex justify-center items-center gap-x-2'>
             <img src="/logo.png" alt="logo" className='w-20 object-cover'/>
-            <h1 className='font-bold text-xl'>Shopping.</h1>
+            <h1 className='font-bold text-xl'>Shopping</h1>
         </div>
     {/* icons */}
         <div className='flex items-center justify-center gap-x-6'>
