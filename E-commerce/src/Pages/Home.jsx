@@ -8,6 +8,7 @@ import DealBar from '../Components/Home/DealBar'
 import DiscountBar from '../Components/Home/DiscountBar'
 import Newsletter from '../Components/Home/Newsletter'
 
+
 const Home = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Home = () => {
     <DealBar/>
     <DiscountBar/>
     <Newsletter/>
+    
    
     </>
   )
